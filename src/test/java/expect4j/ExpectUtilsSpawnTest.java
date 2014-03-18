@@ -48,7 +48,7 @@ import org.slf4j.LoggerFactory;
 public class ExpectUtilsSpawnTest {
     private static final Logger logger = LoggerFactory.getLogger(ExpectUtilsSpawnTest.class);
     
-    @Test
+    //@Test
     public void testSpawnOnUnixLinux() throws Exception {
         System.out.println("spawn (unix/linux test variant)");
 
@@ -156,7 +156,7 @@ public class ExpectUtilsSpawnTest {
         assertTrue( transmitted > 0 );
     }
 
-    @Test
+    //@Test
     public void testSpawnOnMacOSX() throws Exception {
         System.out.println("spawn (mac os x test variant)");
 
